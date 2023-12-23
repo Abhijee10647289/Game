@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+</head>
+<body>
+
+    <!-- Comment Section -->
+    <section id="comments">
+        <h2>Comments</h2>
+
+        <!-- Individual Comment -->
+        <div class="comment">
+            <p><strong>Username:</strong> This is a great website!</p>
+        </div>
+
+        <!-- Add your comments here -->
+
+        <!-- Comment Form -->
+        <form action="#" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+
+            <button type="submit">Submit Comment</button>
+        </form>
+    </section>
+
+</body>
+</html>
